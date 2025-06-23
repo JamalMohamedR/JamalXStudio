@@ -1,0 +1,15 @@
+/* Using Orbitron from Google Fonts */
+.navbar-name {
+  font-family: 'audiowide', sans-serif;
+  color: white;
+}
+/* Ensure this is included in your global CSS file (e.g., App.css) */
+@media (width: 1024px) and (height: 1366px) {
+  .hero-stack-ipad-pro {
+    flex-direction: column !important;
+  }
+  .hero-stack-ipad-pro > .left-section,
+  .hero-stack-ipad-pro > .right-section {
+    width: 100% !important;
+  }
+}
