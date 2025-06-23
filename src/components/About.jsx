@@ -376,7 +376,7 @@ const About = () => {
                 </p>
                 <div className="flex items-center justify-end">
                   <div className="text-right">
-                    <div className="text-xs sm:text-sm text-purple-300 font-semibold">— Elon Musks</div>
+                    <div className="text-xs sm:text-sm text-purple-300 font-semibold">— Elon Musk</div>
                   </div>
                 </div>
                 <div className="absolute top-2 right-4 text-4xl sm:text-5xl text-purple-400 rotate-180">"</div>
