@@ -4,7 +4,7 @@ import { Element } from 'react-scroll';
 
 const skills = [
   'JavaScript','React','Firebase','TailwindCSS','HTML',
-  'Css','AI Tools','Git','ML',''
+  'Css','AI Tools','Git','ML',
 ];
 
 const colors = [
