@@ -386,7 +386,7 @@ const About = () => {
         </div>
 
         {/* Bubbles Section - Right Side */}
-        <div className="w-full lg:w-1/2 relative flex items-center justify-center p-4 sm:p-6 lg:p-8">
+        <div className="w-full lg:w-1/2  relative flex items-center justify-center p-4 sm:p-6 lg:p-8">
          
           <div 
             ref={containerRef}
@@ -397,8 +397,11 @@ const About = () => {
               initial={{ y: -20, opacity: 0 }} 
               animate={{ y: 0, opacity: 1 }} 
               transition={{ delay: 0.6, duration: 1 }} 
-              className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border border-cyan-400/30 rounded-lg p-3 backdrop-blur-sm z-60 text-center max-w-xs w-full mx-4"
-              style={{ zIndex: 100 }}
+              className="absolute top-4 left-1/2 transform -translate-x-1/2 sm:-translate-x-1/2 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border border-cyan-400/30 rounded-lg p-3 backdrop-blur-sm z-60 text-center max-w-xs w-full mx-4 sm:mx-0"
+              style={{ 
+                zIndex: 100,
+                left: 'calc(50% - 16px)' // Move more left on small screens for better centering
+              }}
             >
               <div className="text-cyan-300 font-medium text-sm sm:text-base">
                 🎯 Pop All The Bubbles!
